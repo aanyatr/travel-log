@@ -1,5 +1,3 @@
-<<<<<<< Updated upstream
-=======
 # app/main.py
 from fastapi import FastAPI, Request
 from fastapi.responses import PlainTextResponse
@@ -23,4 +21,3 @@ async def whatsapp_status(request: Request):
     for key, value in form_data.items():
         print(f"{key}: {value}")
     return "OK"
->>>>>>> Stashed changes
